@@ -82,9 +82,9 @@ function App() {
       <Row className='justify-content-center d-flex align-items-center mh-20'>
         <div className="btn-toolbar justify-content-center">
           
-          <button className="col-2 mx-4 btn btn-secondary" onClick={() => rollHandler('backgrounds')} disabled={disable}>Background</button>
-          <button className="col-2 mx-4 btn btn-secondary" onClick={() => rollHandler('feats')} disabled={disable}>Feat</button>
-          <button className="col-2 mx-4 btn btn-secondary" onClick={() => rollHandler('flaws')} disabled={disable}>Flaw</button>
+          <button className="col-2 mx-4 btn btn-success" onClick={() => rollHandler('backgrounds')} disabled={disable}>Background</button>
+          <button className="col-2 mx-4 btn btn-success" onClick={() => rollHandler('feats')} disabled={disable}>Feat</button>
+          <button className="col-2 mx-4 btn btn-success" onClick={() => rollHandler('flaws')} disabled={disable}>Flaw</button>
         </div>
       </Row>
     </Container>
