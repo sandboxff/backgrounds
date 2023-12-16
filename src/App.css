@@ -1,6 +1,14 @@
+html, #root {
+  height: 100%;
+}
 body {
     background-color: #282828;
-  }
+    height: 100%;
+}
+.mh-20{
+  min-height: 20%;
+}
+
 h2 
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
