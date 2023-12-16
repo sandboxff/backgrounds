@@ -1,0 +1,501 @@
+{
+    "flaws": [
+        {
+            "id": 1,
+            "name": "Znížená odolnosť proti otrave",
+            "effect": "Postava získava nevýhodu pri rolloch týkajúcich sa vlastnej otravy."
+        },
+        {
+            "id": 2,
+            "name": "Znížená odolnosť proti infekciám",
+            "effect": "Postava získava nevýhodu pri rolloch týkajúcich sa vlastnej infekcie."
+        },
+        {
+            "id": 3,
+            "name": "Snob",
+            "effect": "Postava stráca pozitívny bonus z CHA pri pozitívnych sociálnych interakciach s jednoduchým ľudom."
+        },
+        {
+            "id": 4,
+            "name": "Prudérnosť",
+            "effect": "Postava stráca pozitívny bonus z CHA pri interakcii s vulgárne sa správajúcimi postavami mimo boja."
+        },
+        {
+            "id": 5,
+            "name": "Germofóbia",
+            "effect": "Postava stráca pozitívne bonusy z INT a WIS v špinavom prostredí."
+        },
+        {
+            "id": 6,
+            "name": "Kleptománia",
+            "effect": "Postava sa musí raz za deň pokúsiť niečo ukradnúť, inak stráca príčetnosť (-3 INT). Ak hodnota INT dosiahne menej ako 5, postava napadne svojich spoločníkov. Postava nestráca príčetnosť v prípade, že je v bezvedomí alebo neschopná premýšľať."
+        },
+        {
+            "id": 7,
+            "name": "Samotár",
+            "effect": "Postavu prítomnosť iných osôb fyzicky i mentálne vyčerpáva, má nevýhodu pri rolloch benefitujúcich z CON a INT. Vyčerpania sa na daný deň dokáže zbaviť hodinovou meditáciou osamote."
+        },
+        {
+            "id": 8,
+            "name": "Aichmománia",
+            "effect": "Postava nedokáže odolať hraniu sa s čepeľami. Ak sú čepele postave k dispozícii, počas každého odpočinku má 25% šancu, že si spôsobí 1d4 poškodenie."
+        },
+        {
+            "id": 9,
+            "name": "Hrubosť",
+            "effect": "Pri rolloch vyžadujúcich jemnú motoriku má postava nevýhodu."
+        },
+        {
+            "id": 10,
+            "name": "Mohutná jazva",
+            "effect": "Postavá má -1 atribút podľa umiestnenia jazvy (Roll 1d6: 1 - Hlava, INT; 2 - Zátylok, WIS; 3 - Tvár, CHA; 4 - Trup, CON; 5 - Ruka, STR; 6 - Noha, DEX)."
+        },{
+            "id": 11,
+            "name": "Hromaditeľ koristi",
+            "effect": "Postava zbiera predmety z bojov bez ohľadu na ich použiteľnosť, a to až dovtedy, kým nie je preťažená. V stave preťaženia je jej DEX modifikátor rovný -4 a jej rýchlosť klesá na polovicu."
+        },
+        {
+            "id": 12,
+            "name": "Neschopný obchodník",
+            "effect": "Postava nemá záujem vyjednávať o cenách, kupuje za plnú cenu, prípadne aj za viac."
+        },
+        {
+            "id": 13,
+            "name": "Zvedavosť",
+            "effect": "Postava nedokáže odolať príležitosti špehovať pri súkromných konverzáciach a skúmať zaujímavé objekty bez ohľadu na nebezpečenstvo."
+        },
+        {
+            "id": 14,
+            "name": "Výstrednosť",
+            "effect": "Postava má 75% šancu na nevýhodu pri pozitívnych sociálnych interakciach. Ak nemá nevýhodu, má výhodu."
+        },
+        {
+            "id": 15,
+            "name": "Samozvaný sudca",
+            "effect": "Ak postava nesúhlasí s konaním inej postavy v družine, dá to zanietene najavo. Postava, ktorá bola cieľom kázne, má nutkanie vraziť jej päsťou s poškodením 1d4, rolluje WIS s obtiažnosťou 10, či nutkaniu odolá."
+        },
+        {
+            "id": 16,
+            "name": "Naivita",
+            "effect": "Postava akceptuje informácie získané z pozitívnych sociálnych interakcii ako pravdivé."
+        },
+        {
+            "id": 17,
+            "name": "Názorová rigidita",
+            "effect": "Pri konfliktných názoroch ohľadom rozhodnutia v skupine nie je postava ochotná hlasovať za inú možnosť, ako bola jej prvá, ku ktorej sa priklonila."
+        },
+        {
+            "id": 18,
+            "name": "Paranoja",
+            "effect": "Postava má 50% šancu považovať informácie poskytnuté dobrovoľne inými postavami za klamstvo. -1 current HP po odpočívaní mimo vlastnej postele."
+        },
+        {
+            "id": 19,
+            "name": "Submisivita",
+            "effect": "Postava má nevýhodu na rolly z CHA pri pozitívnych interakciach s postavami s vyšším STR."
+        },
+        {
+            "id": 20,
+            "name": "Morská choroba",
+            "effect": "Postava má nevýhodu na rolly z CON pri plavbách."
+        },
+        {
+            "id": 21,
+            "name": "Dudroš",
+            "effect": "Postava stráca pozitívne bonusy z CHA pri interakcii s postavami v družine."
+        },
+        {
+            "id": 22,
+            "name": "Fetišista",
+            "effect": "Postava nosí ako časť oblečenia zvláštny bezcenný objemný predmet, má nevýhodu pri rolloch využívajúcich akrobaciu."
+        },
+        {
+            "id": 23,
+            "name": "Zoofóbia",
+            "effect": "Postava má 75% šancu byť Frightened po dobu jedného kola pri interakcii s vybraným bežným druhom zvieraťa (roll 1d8: 1 - pavúky, 2 - hady, 3 - psy, 4 - netopiere, 5 - hmyz, 6 - ryby, 7 - myši a krysy, 8 - hydina)."
+        },
+        {
+            "id": 24,
+            "name": "Netrpezlivosť",
+            "effect": "Postava má 25% šancu prezradiť skupinu pri pokuse o prepad bez ohľadu na náročnosť rollu, zároveň nikdy nehlasuje za rozhodnutia, ktoré zahŕňajú čakanie."
+        },
+        {
+            "id": 25,
+            "name": "Egocentrizmus",
+            "effect": "Postava má 25% šancu, že jej akcie, ktorými sa snaží pomôcť priateľským jednotkám, zlyhajú bez ohľadu na náročnosť rollu."
+        },
+        {
+            "id": 26,
+            "name": "Zbabelosť",
+            "effect": "Postava má 75% šancu byť Frightened v prvom kole v bojoch proti početnej prevahe a monštrám o dve triedy väčším."
+        },
+        {
+            "id": 27,
+            "name": "Insomnia",
+            "effect": "Postava počas dlhého odpočinku regeneruje 1d4 menej HP. V prípade, ak total HP <= 6, minimum current HP po odpočinku je 3. Postava je schopná odhaliť nepriateľské prepadnutie počas dlhého odpočinku bez bonusu zručnosti na Perception."
+        },
+        {
+            "id": 28,
+            "name": "Nerozvážnosť",
+            "effect": "Postava má pri rozhodovaní 75% šancu automaticky uprednostniť možnosť, ktorá podľa dostupných informácii nesie vyššie riziko."
+        },
+        {
+            "id": 29,
+            "name": "Arogancia",
+            "effect": "Pri rolloch z Performance postáv ostatných hráčov rolluje aj táto postava. Ak po zrátaní všetkých modifikátorov dosiahla vyššie skóre, vykoná úlohu namiesto pôvodného aktéra."
+        },
+        {
+            "id": 30,
+            "name": "Pocit menejcennosti",
+            "effect": "Ak postava iného hráča rollne prirodzených 20, postava trpiaca touto vadou má v najbližšom ťahu nevýhodu v ďalšom rolle."
+        },
+        {
+            "id": 31,
+            "name": "Gambler",
+            "effect": "Pri rolloch, v ktorých postava rozhoduje o miere risku, má 50% šancu ísť automaticky all-in."
+        },
+        {
+            "id": 32,
+            "name": "Ochromujúce výčitky",
+            "effect": "Po každom odpočinku má postava 10% šancu upadnúť do letargie, ktorá nulifikuje jej pozitívne bonusy z WIS a DEX až do druhého kola najbližšieho boja, alebo kým nevykoná dlhý odpočinok."
+        },
+        {
+            "id": 33,
+            "name": "Neschopnosť prehrávať",
+            "effect": "Prehra v kompetitívnej aktivite (napr. duel, hra, stávka, tímový šport) nulifikuje pozitívne bonusy z CHA až do najbližšieho dlhého odpočinku. Ak je CHA modifikátor postavy negatívny, postava vyvolá s výhercom non-lethal boj."
+        },
+        {
+            "id": 34,
+            "name": "Idealista",
+            "effect": "Postave sú nulifikované všetky bonusy atribútov až do najbližšieho dlhého odpočinku pokiaľ jej skupina vykoná akt v priamom rozpore s jej zaradením. Postavy s neutrálnym zaradením túto vadu mať nemôžu."
+        },
+        {
+            "id": 35,
+            "name": "Záletník",
+            "effect": "Postava má nevýhodu pri odolávaní Persuasion, Deception, Intimidation a Sleight of Hand atraktívnych postáv opačného pohlavia."
+        },
+        {
+            "id": 36,
+            "name": "Alkoholik",
+            "effect": "Ak postava nepožije alkoholický nápoj počas celého dňa, na druhý deň je jej CON modifikátor znížený o 1. Ak v tomto stave dosiahne CON modifikátor hodnotu -5 a nižšiu, postava upadne do abstinenčného záchvatu, ktorý trvá 2 dni a bráni postave v iných akciách, ako je vyhľadanie alkoholu. Záchvat je možné ukončiť požitím alkoholu. Ak záchvat prebehne v plnej dĺžke, postava nie je naďalej Alkoholik."
+        },
+        {
+            "id": 37,
+            "name": "Nerozhodnosť",
+            "effect": "Ak sa postavám v skupine určuje poradie výberu zo skupiny objektov, nerozhodná postava ide posledná. V prípade viacerých nerozhodných postáv určuje poradie WIS roll."
+        },
+        {
+            "id": 38,
+            "name": "Hypochonder",
+            "effect": "Postava je po kontakte s akoukoľvek chorou osobou presvedčená o tom, že sa u nej začína prejavovať rovnaká choroba, jej CON, INT, WIS a CHA modifikátory sú znížené o 1 až do najbližšieho dlhého odpočinku."
+        },
+        {
+            "id": 39,
+            "name": "Chronická únava",
+            "effect": "Postava má po podaní fyzického výkonu (napr. boj, športový zápas, štyri hodiny chôdze či manuálnej práce) znížený STR modifikátor o 1 až do najbližšieho dlhého odpočinku. Efekt sa hromadí."
+        },
+        {
+            "id": 40,
+            "name": "Rozmaznaný mešťan",
+            "effect": "Prvých 5 praktických Nature, Animal handling či Survival rollov má postava nevýhodu, potom stratí túto vadu."
+        },
+        {
+            "id": 41,
+            "name": "Alergik",
+            "effect": "Postava má nevýhodu na Stealth rolly v oblastiach, kde podstatnú časť prostredia tvoria rastliny."
+        },
+        {
+            "id": 42,
+            "name": "Trémista",
+            "effect": "Postava má nevýhodu na Performance rolly. 50% šanca na odstránenie vady, ak postava uspeje pri dvoch nezávislých Performance rolloch po sebe."
+        },
+        {
+            "id": 43,
+            "name": "Ploché nohy",
+            "effect": "Pri presunoch dlhších ako 1 hodina dostáva postava 1 poškodenie a -1 pri rolloch o iniciatívu. Efekt sa nehromadí a maže sa odpočinkom."
+        },
+        {
+            "id": 44,
+            "name": "Temné pohnútky",
+            "effect": "Pri rolloch týkajúcich sa sociálnych interakcii s nehráčskymi postavami má postava 5% šancu na pocítenie temnej pohnútky, ktorá núti postavu konať s cieľom ublížiť. Hráč môže pohnútku poslúchnuť, alebo rolluje WIS check s obtiažnosťou 10 o to, či odolá."
+        },
+        {
+            "id": 45,
+            "name": "Ochranár zvierat",
+            "effect": "Postava sa nezúčastní lovu, týrania ani hubenia zvierat, ak nimi nie je ohrozená."
+        },
+        {
+            "id": 46,
+            "name": "Poverčivosť",
+            "effect": "Postava preferuje akcie a rozhodnutia, ktoré nezahŕňajú použitie nadprirodzených síl (mágia, okultizmus...)."
+        },
+        {
+            "id": 47,
+            "name": "Cukrovkár",
+            "effect": "Ak postava deň neje, v nasledujúcom dni je jej CON modifikátor znížený o 1. Ak CON modifikátor dosiahne -5, postava umiera."
+        },
+        {
+            "id": 48,
+            "name": "Perfekcionista",
+            "effect": "Pri rolloch mimo boja, ktoré zahŕňajú vykonanie určitej služby alebo vytvorenie produktu, rolluje postava znova. Ak nerollne aspoň polovicu z maximálnej hodnoty kocky, jej WIS, INT a CHA modifikátory sú znížené o 1 až do dlhého odpočinku."
+        },
+        {
+            "id": 49,
+            "name": "Odporný riťolez",
+            "effect": "Postava má nevýhodu na Deception checky pri interakciách s autoritami (šľachta, stráže...)."
+        },
+        {
+            "id": 50,
+            "name": "Rasista",
+            "effect": "Postava sa nevie zdržať zdieľania negatívnych názorov na iné rasy ako je jej vlastná, modifikátor pri Persuasion rolloch pri interakcii s inými rasami je znížený o 2."
+        },{
+            "id": 51,
+            "name": "Úzkostná porucha",
+            "effect": "10% šanca byť Frightened prvé kolo boja."
+        },
+        {
+            "id": 52,
+            "name": "Držgroš",
+            "effect": "Postava finančne dobrovoľne neprispieva na ciele družiny."
+        },
+        {
+            "id": 53,
+            "name": "Zábudlivosť",
+            "effect": "Pri pokuse o použitie predmetu (s výnimkou zbrane, ktorú má v rukách) počas boja má postava 15% šancu zabudnúť na to, kde ten predmet má, alebo či ho vôbec má. V takom prípade v danom kole vynechá svoju akciu."
+        },
+        {
+            "id": 54,
+            "name": "Prvoplánový",
+            "effect": "Ak postava rollne iniciatívu menej ako 10, prvý útok tejto postavy má nevýhodu."
+        },
+        {
+            "id": 55,
+            "name": "Roztržitosť",
+            "effect": "Ak postava rollne iniciatívu menej ako 10, prvý útočník proti tejto postave má výhodu, ak útok vykoná v prvom ťahu."
+        },
+        {
+            "id": 56,
+            "name": "Teplomilnosť",
+            "effect": "Postava má znížený CON modifikátor o 2 v mraze."
+        },
+        {
+            "id": 57,
+            "name": "Chladnomilnosť",
+            "effect": "Postava má znížený CON modifikátor o 2 v horúčave."
+        },
+        {
+            "id": 58,
+            "name": "Ľahká váha",
+            "effect": "Postava je po požití akéhokoľvek množstva alkoholu v ťažkom opitom stave, jej STR a DEX modifikátory sú znížené o 2 a má nevýhodu pri útokoch a Perception rolloch. Postava je po dvoch hodinách nútená do neproduktívneho dlhého odpočinku."
+        },
+        {
+            "id": 59,
+            "name": "Krvilačnosť",
+            "effect": "Ak postava rollne pri útoku 2, zaútočí na náhodný cieľ v dosahu."
+        },
+        {
+            "id": 60,
+            "name": "Nepredvídateľnosť",
+            "effect": "Ak postava rollne pri útoku 2 alebo 3, zaútočí iným spôsobom, ako bol jej pôvodne mienený."
+        },
+        {
+            "id": 61,
+            "name": "Nenažranec",
+            "effect": "Ak postava skonzumuje objekt, v prípade, že disponuje druhým kusom tohto objektu, skonzumuje oba bez ďalšieho efektu. Ak má dostatočný majetok, kupuje takéto objekty minimálne v 2 kusoch a nechce sa o ne deliť."
+        },
+        {
+            "id": 62,
+            "name": "Krátkozrakosť",
+            "effect": "Postava má bez špeciálneho vybavenia pre korekciu nevýhodu pri útokoch na väčšiu vzdialenosť ako 30ft."
+        },
+        {
+            "id": 63,
+            "name": "Neokrôchanec",
+            "effect": "Postava má nevýhodu na CHA rolly pri prvej sociálnej interakcii s danou postavou."
+        },
+        {
+            "id": 64,
+            "name": "Hemofília",
+            "effect": "Postava má nevýhodu pri rolloch súvisiacich s vlastným krvácaním."
+        },
+        {
+            "id": 65,
+            "name": "Hydrofóbia",
+            "effect": "Postava má nevýhodu pri rolloch, ktoré súvisia so špecifickými úlohami vo vode (napr. záchrana človeka z rieky, vylovenie predmetu z dna jazera...)."
+        },
+        {
+            "id": 66,
+            "name": "Slušňáčik",
+            "effect": "Postava má v deň, kedy je svedkom porušenia zákona družinou (alebo ho poruší sama), nevýhodu na Deception a Sleight of hand rolly."
+        },
+        {
+            "id": 67,
+            "name": "Tajnostkár",
+            "effect": "Postava nezdieľa informácie, ktoré získa pomocou vedomostných rollov, ak zatajenie tejto informácie nebráni družine v postupe."
+        },
+        {
+            "id": 68,
+            "name": "Mrchožrút",
+            "effect": "Postava požiera mŕtvoly monštier s veľkostnou klasifikáciou Small a menšou. Kapacita konzumácie je mŕtvola za deň. Postava skonzumuje náhodnú mŕtvolu, ak sú viaceré k dispozícii. Každá konzumácia má 25% šancu privodiť postave tráviace ťažkosti, ktoré ju odstavia na 2 najbližšie dni. Nákaza má navyše 25% šancu byť prenosná, šanca na prenos je 25%."
+        },
+        {
+            "id": 69,
+            "name": "Latentná infekcia",
+            "effect": "Postava trpí zvláštnou infekciou, ktorá po smrti postavy spôsobí okamžité oživenie jej mŕtvoly (ak sa po smrteľnej rane zachovala). Mŕtvola nie je pod kontrolou postavy, má atribúty ako Zombie a útočí na náhodné ciele v okolí. Každý zásah infikuje cieľ s virulentnou verziou infekcie, ktorá zmení živý cieľ na Zombie v nasledujúcom ťahu. Infekcia nepôsobí iba na neživé entity, entity imúnne proti nekrotickému poškodeniu a entity s CON vyšším ako 20."
+        },
+        {
+            "id": 70,
+            "name": "Surovec",
+            "effect": "Ak postava nepoužila svoju bonus akciu počas ťahu, kedy zasadila smrteľný úder, použije svoju bonus akciu na dodatočný úder čerstvej mŕtvole. Tento úder má 25% šancu poškodiť korisť z danej mŕtvoly."
+        },{
+            "id": 71,
+            "name": "Bezočivosť",
+            "effect": "Ak postava svoj prvý útok v boji netrafí, do jej ďalšieho ťahu majú proti nej nepriatelia výhodu na útok."
+        },
+        {
+            "id": 72,
+            "name": "Krehkosť",
+            "effect": "Postava má 10% šancu byť Incapacitated vo svojom ďalšom ťahu keď dostane poškodenie typu Bludgeoning."
+        },
+        {
+            "id": 73,
+            "name": "Neskúsenosť",
+            "effect": "Postava je po udelení prvej smrteľnej rany humanoidnému nepriateľovi paralyzovaná až do najbližšieho dlhého odpočinku. Vada je následne odstránená."
+        },
+        {
+            "id": 74,
+            "name": "Patologická fascinácia ohňom",
+            "effect": "Postava nie je schopná hasenia, a to ani v prípade, ak sú obeťou ohňa priateľské postavy či ona sama."
+        },
+        {
+            "id": 75,
+            "name": "Ignorant",
+            "effect": "Postava má nevýhodu na History a Religion rolly."
+        },
+        {
+            "id": 76,
+            "name": "Nadmerná konzumácia odvarov",
+            "effect": "Postava má každý odpočinok 25% šancu vypiť náhodný odvar, ktorý má k dispozícii. Ak nejde o odvar s aspoň celodenným efektom, efekt pominie počas odpočinku."
+        },
+        {
+            "id": 77,
+            "name": "Šialenstvo",
+            "effect": "Ak má postava k dispozícii plošný efekt, ktorý pri zasiahnutí spojenca zasiahne viac nepriateľov, ako bez zasiahnutia spojenca, postava má 50% šancu tento efekt použiť s tým, že zasiahne aj spojenca."
+        },
+        {
+            "id": 78,
+            "name": "Zvrátenosť",
+            "effect": "Každý nevyprovokovaný násilný akt vykonaný postavou znižuje jej CHA o 1."
+        },
+        {
+            "id": 79,
+            "name": "Zlý klamár",
+            "effect": "Postava má nevýhodu na Deception rolly."
+        },
+        {
+            "id": 80,
+            "name": "Smoliar",
+            "effect": "Ak postava hodí 1, v ďalšom rolle má nevýhodu."
+        },
+        {
+            "id": 81,
+            "name": "Netalentovaný študent nekromancie",
+            "effect": "Postava sa po bojoch pokúša oživiť humanoidnú mŕtvolu. 10% šanca, že oživenie sa podarí a Zombie napadne postavu. Postava má po tomto incidente 50% šancu vzdať sa svojich nekromantických ambícii a 10% stať sa amatérskym nekromantom."
+        },
+        {
+            "id": 82,
+            "name": "Netalentovaný privolávač",
+            "effect": "Postava počas dlhého odpočinku skúša démonický privolávací rituál. 10% šanca, že privolá impa, ktorý postave ukradne náhodný predmet a zmizne. Postava má po tomto incidente 50% šancu vzdať sa svojich privolávačských ambícii a 10% stať sa amatérskym privolávačom."
+        },
+        {
+            "id": 83,
+            "name": "Márnotratník",
+            "effect": "Postava nedokáže šetriť, vždy, keď má aspoň 50 zlatých, minie ich pri najbližšej príležitosti. Vadu možno stratiť mesačným pôstom a meditáciou mimo civilizácie."
+        },
+        {
+            "id": 84,
+            "name": "Závislosť",
+            "effect": "Postava má nevýhodu na rolly, ktoré vykonáva bez prítomnosti aspoň jedného člena družiny."
+        },
+        {
+            "id": 85,
+            "name": "Pacifista",
+            "effect": "Postava neútočí, kým počas boja nezaútočí nepriateľská jednotka."
+        },
+        {
+            "id": 86,
+            "name": "Pýcha",
+            "effect": "Postava si vyberá jeden atribút, na ktorý je pyšná. Ak postava zlyhá v rolle, ktorý využíva tento atribút, získava -1 na najbližší roll využívajúci iný atribút. Efekt sa hromadí až po mínusovú hodnotu súčasného levelu postavy. Efekt sa ruší akýmkoľvek úspešným rollom."
+        },
+        {
+            "id": 87,
+            "name": "Skeptik",
+            "effect": "-1 na roll iniciatívy v bojoch, ktoré začala družina."
+        },
+        {
+            "id": 88,
+            "name": "Nízke sebavedomie",
+            "effect": "Ak postava netrafí útok, náročnosť nasledujúceho pokusu je zvýšená o 1. Efekt sa nehromadí."
+        },
+        {
+            "id": 89,
+            "name": "Hlava v oblakoch",
+            "effect": "Postava má Perception znížené o 1."
+        },
+        {
+            "id": 90,
+            "name": "Náboženský fanatik",
+            "effect": "Postava má nasledovne upravené atribúty: -1 INT, -1 WIS, +1 CHA."
+        },
+        {
+            "id": 91,
+            "name": "Slabé nohy",
+            "effect": "Bonus zo šprintu je znížený o 5ft."
+        },
+        {
+            "id": 92,
+            "name": "Apatia",
+            "effect": "Ak postava hodí 1 pri rolle o iniciatívu, jej poškodenie v danom boji nebenefituje z modifikátorov."
+        },
+        {
+            "id": 93,
+            "name": "Magnet na nehody",
+            "effect": "Roll 1 stále vedie k sebapoškodeniu."
+        },
+        {
+            "id": 94,
+            "name": "Nyctophobia",
+            "effect": "-1 WIS modifikátor v tmavých priestoroch."
+        },
+        {
+            "id": 95,
+            "name": "Strach z vlastnej moci",
+            "effect": "-1 STR modifikátor pri útokoch."
+        },
+        {
+            "id": 96,
+            "name": "Nízka výdrž",
+            "effect": "Každé 3 kolá v boji sa postave znižuje modifikátor pre STR, DEX a CON o 1. Efekt sa resetuje odpočinkom."
+        },
+        {
+            "id": 97,
+            "name": "Drevo",
+            "effect": "Postava má nevýhodu na Athletics."
+        },
+        {
+            "id": 98,
+            "name": "Šarlatánsky lekár",
+            "effect": "Pri praktických rolloch na Medicine a Survival má 50% šancu poškodiť pacientovi alebo sebe."
+        },
+        {
+            "id": 99,
+            "name": "Špinavec",
+            "effect": "Postava má tendenciu uzatvárať bilaterálne dohody typu \"Ty mi daj teraz, ja ti dám potom\". O tom, či postava dodrží svoju stranu dohody, rozhoduje náhoda. Šanca je 50%."
+        },
+        {
+            "id": 100,
+            "name": "Jed v žilách",
+            "effect": "Postava má magicky upravený metabolizmus, klasické spôsoby liečenia jej škodia. Lieči sa pomocou intoxikácie, zhodou okolností napríklad alkoholom (50ml 40% alkoholu lieči 2d4 HP, efekt má maximálne 200ml denne; slabší alkohol okolo 5% lieči 1d4 na 300ml so zdanlivo neobmedzeným efektom). Poškodenie typu poison postavu lieči."
+        }
+    ]
+}

@@ -1,0 +1,455 @@
+{
+    "feats": [
+        {
+            "id": 1,
+            "name": "Pevná vôľa",
+            "effect": "Postava má +2 na rolly pre odolanie Očarovaniu a Vystrašeniu."
+        },
+        {
+            "id": 2,
+            "name": "Dochvíľnosť",
+            "effect": "Postava príde vždy včas na dohodnuté miesto, ak je v jej fyzických možnostiach sa na miesto dostaviť. Pri činnostiach vyžadujúcich prípravu nepodlieha postava časovej tiesni."
+        },
+        {
+            "id": 3,
+            "name": "Z vyššej spoločnosti",
+            "effect": "Postava získava bonus +1 na rolly pri pozitívnej sociálnej interakcii so šľachtou."
+        },
+        {
+            "id": 4,
+            "name": "Upravenosť",
+            "effect": "Postava získava bonus +1 na rolly pri pozitívnej sociálnej interakcii s civilizovaným obyvateľstvom."
+        },
+        {
+            "id": 5,
+            "name": "Organizátor",
+            "effect": "Postava si perfektne pamätá detaily o mieste, čase a počte osôb získané o známych plánovaných udalostiach. Pamätá si takisto ceny služieb a tovaru."
+        },
+        {
+            "id": 6,
+            "name": "Infiltrátor",
+            "effect": "Pri použití skrytých zbraní získava postava +1 pri rolloch na útok i poškodenie."
+        },
+        {
+            "id": 7,
+            "name": "Trpezlivosť",
+            "effect": "Postava získava výhodu na najbližší roll počas boja, ak v predchádzajúcom ťahu nevykonala žiaden pohyb ani akciu."
+        },
+        {
+            "id": 8,
+            "name": "Šťastná ruka",
+            "effect": "Postava má výhodu pri identifikácii najhodnotnejšieho predmetu v prípade, že má viacero na výber."
+        },
+        {
+            "id": 9,
+            "name": "Odhadca",
+            "effect": "Postava má výhodu pri odhadovaní finančnej hodnoty nemagických predmetov."
+        },
+        {
+            "id": 10,
+            "name": "Výborná jemná motorika",
+            "effect": "Postava má výhodu pri úkonoch vyžadujúcich jemnú motoriku."
+        },
+        {
+            "id": 11,
+            "name": "Vynaliezavosť",
+            "effect": "Postava má raz za deň výhodu pri rolle využívajúcom predmety s iným pôvodným účelom, na aké ich chce použiť."
+        },
+        {
+            "id": 12,
+            "name": "Mučiteľ",
+            "effect": "Pri výsluchu inej postavy má Mučiteľ možnosť viesť výsluch s použitím mučenia s výhodou na Investigation a Intimidation. Postava stráca každým takýmto výsluchom permanentne 1 z CHA."
+        },
+        {
+            "id": 13,
+            "name": "Šťastko",
+            "effect": "Postava má po rollnutí prirodzenej 20 výhodu na ďalší roll."
+        },
+        {
+            "id": 14,
+            "name": "Sociálny chameleón",
+            "effect": "Postava môže raz za deň využiť akciu na zdvojnásobenie svojho bonusu z CHA pri sociálnych interakciach."
+        },
+        {
+            "id": 15,
+            "name": "Ruky pracanta",
+            "effect": "Postava dostáva poškodenie z ručnej manipulácie telesami (napr. z dotyku horúceho, ostrého telesa) znížené o 1."
+        },
+        {
+            "id": 16,
+            "name": "Obľúbenec zvierat",
+            "effect": "Postava má +1 k Animal Handling."
+        },
+        {
+            "id": 17,
+            "name": "Atlét",
+            "effect": "Postava má +1 k Athletics."
+        },
+        {
+            "id": 18,
+            "name": "Pouličný kúzelník",
+            "effect": "Postava má +1 k Sleight of Hand."
+        },
+        {
+            "id": 19,
+            "name": "Švindler",
+            "effect": "Postava má +1 k Deception."
+        },
+        {
+            "id": 20,
+            "name": "Knihomoľ",
+            "effect": "Postava má +1 k Arcana."
+        },
+        {
+            "id": 21,
+            "name": "Cirkusant",
+            "effect": "Postava má +1 k Acrobatics."
+        },
+        {
+            "id": 22,
+            "name": "Folklorista",
+            "effect": "Postava má +1 k History."
+        },
+        {
+            "id": 23,
+            "name": "Zvýšená intuícia",
+            "effect": "Postava má +1 k Insight."
+        },
+        {
+            "id": 24,
+            "name": "Hrozivý vzhľad",
+            "effect": "Postavá ma +1 k Intimidation."
+        },
+        {
+            "id": 25,
+            "name": "Súkromné očko",
+            "effect": "Postava má +1 k Investigation."
+        },
+        {
+            "id": 26,
+            "name": "Bylinkár",
+            "effect": "Postava má +1 k Medicine."
+        },
+        {
+            "id": 27,
+            "name": "Ostré zmysly",
+            "effect": "Postava má +1 k Perception."
+        },
+        {
+            "id": 28,
+            "name": "Rozprávač",
+            "effect": "Postava má +1 k Performance."
+        },
+        {
+            "id": 29,
+            "name": "Obchodník",
+            "effect": "Postava má +1 k Persuasion."
+        },
+        {
+            "id": 30,
+            "name": "Katechet",
+            "effect": "Postava má +1 k Religion."
+        },
+        {
+            "id": 31,
+            "name": "Tichá chôdza",
+            "effect": "Postava má +1 k Stealth."
+        },
+        {
+            "id": 32,
+            "name": "Cestovateľ",
+            "effect": "Postava má +1 k Survival."
+        },
+        {
+            "id": 33,
+            "name": "Favorit bohov",
+            "effect": "Pri poklese HP pod 1 je HP postavy nastavené na 1, následne postava prichádza o tento trait."
+        },
+        {
+            "id": 34,
+            "name": "Stabilita",
+            "effect": "Postava má výhodu pri odolávaní Prone."
+        },
+        {
+            "id": 35,
+            "name": "Výbušná sila",
+            "effect": "Postava má výhodu pri skákaní. Postava môže navyše použiť reakciu na akcie spôsobujúce Restrained. O úspechu reakcie rozhoduje STR roll s obtiažnosťou podľa sily spútania. Trait nemôže získať postava so STR nižším ako 0."
+        },
+        {
+            "id": 36,
+            "name": "Kaskadér",
+            "effect": "Poškodenie z pádov sa pre postavu začína počítať až pri výške 20ft."
+        },
+        {
+            "id": 37,
+            "name": "Disciplinovanosť",
+            "effect": "Postava má vďaka dobrým návykom kvalitnejší spánok, po dlhom odpočinku získava 2 dočasné HP."
+        },
+        {
+            "id": 38,
+            "name": "Pohotovosť",
+            "effect": "Postava má bonus +1 k rollom na iniciatívu."
+        },
+        {
+            "id": 39,
+            "name": "Vražedná extáza",
+            "effect": "Po zasadení smrteľného úderu môže postava využiť bonusovú akciu pre útok na iný cieľ. Ak postava túto možnosť využije, ďalší svoj ťah vynechá."
+        },
+        {
+            "id": 40,
+            "name": "Zberač duší",
+            "effect": "Postava je schopná raz za deň po zasadení smrteľného úderu naviazať časť duše obete na vybraný predmet zo svojho vybavenia. Pri rozbití tohto predmetu dochádza k prudkému uvoľneniu energie, entity v okolí 10ft dostávajú poškodenie (level postavy / 4 + 1)d10. Prevencia úniku duše z predmetu vyžaduje určitú pozornosť, modifikátor WIS je znížený o 2 pokým trvá naviazanie (-1 WIS modifikátor od levelu 5, 0 od levelu 10). Duša uniká po upadnutí do bezvedomia, spánku či po dlhom odpočinku. Naviazanie duše má (5% x CR obete) šancu na posadnutie predmetu, ktorý sa následne stáva prekliatym. Prekliaty predmet bráni všetkým liečivým účinkom u nositeľa vrátane odpočinkov. Prekliatie predmetu končí až s jeho zničením, robí dvojnásobné poškodenie na 20ft."
+        },
+        {
+            "id": 41,
+            "name": "Pán zverov",
+            "effect": "Postava môže raz za deň zadarmo použiť ekvivalent kúzla Command na zviera."
+        },
+        {
+            "id": 42,
+            "name": "Pozorovateľ",
+            "effect": "Postava môže raz za boj spotrebovať akciu na poskytnutie výhody na najbližší útok spojencovi, s ktorým dokáže komunikovať."
+        },
+        {
+            "id": 43,
+            "name": "Amatérsky nekromancer",
+            "effect": "V prípade dostupnosti humanoidnej mŕtvoly sa môže postava pokúsiť o hodinový rituál vyvolania zombie. Šanca na úspech je 5%. Rituál je možné vykonať iba raz za deň."
+        },
+        {
+            "id": 44,
+            "name": "Amatérsky privolávač",
+            "effect": "Postava objavila vlastný rituál pre privolanie impa, na ktorý potrebuje obetovať jeden deň a malé zviera. Šanca na úspech je 50%. Amatérsky pakt neumožňuje použitie impa ako spoločníka v boji, umožňuje iba jednu službu vyžadujúcu Stealth. Po vykonaní služby je imp z paktu prepustený."
+        },
+        {
+            "id": 45,
+            "name": "Latentná mágia",
+            "effect": "Postava má pri zasiahnutí nepriateľom 5% šancu na jednu z nasledujúcich udalostí: 1 - postava podvedome vytvorí na mieste zásahu silové pole, ktoré absorbuje polovicu poškodenia; 2 - útočník je zasiahnutý (level postavy/4 + 1)d8 psychic poškodením; 3 - najbližšia jednotka v okolí 60ft (okrem postavy a útočníka) je premiestnená medzi postavu a útočníka, premiestnená jednotka je novým cieľom útoku; 4 - postava spomalí na kratučký moment čas aby sa vyhla útoku, ďalší ťah nie je schopná vykonávať akcie."
+        }, 
+        {
+            "id": 46,
+            "name": "Železný stisk",
+            "effect": "Postava má výhodu voči Disarm a výhodu na Grapple, ak je jej STR vyšší ako nepriateľov."
+        },
+        {
+            "id": 47,
+            "name": "Šrotovník",
+            "effect": "Postava má výhodu na rolly proti otravám z jedla a nápojov."
+        },
+        {
+            "id": 48,
+            "name": "Elementalista",
+            "effect": "Postava získava +1 k vybranému elementálnemu typu poškodenia."
+        },
+        {
+            "id": 49,
+            "name": "Napichávač",
+            "effect": "Všetky kritické zásahy prieraznými zbraňami spôsobujú krvácanie, krvácajúca jednotka dostáva poškodenie 1d4 každý ťah, až kým nezastaví krvácanie (Survival DC)."
+        },
+        {
+            "id": 50,
+            "name": "Vrah",
+            "effect": "Jedy a otravy pripravené postavou spôsobujúce poškodenie získavajú + level postavy k poškodeniu za kolo."
+        },
+        {
+            "id": 51,
+            "name": "Stoik",
+            "effect": "Postava dostáva o 1 menej poškodenia ak je poškodenie typu psychic."
+        },
+        {
+            "id": 52,
+            "name": "Intrigant",
+            "effect": "Postava môže raz za deň použiť svoj INT modifikátor pre CHA roll, alebo CHA modifikátor pre INT roll (nemožno použiť v bojových situáciach)."
+        },
+        {
+            "id": 53,
+            "name": "Šprintér",
+            "effect": "Dosah šprintu postavy je o 10ft väčší."
+        },
+        {
+            "id": 54,
+            "name": "Odhodlanosť",
+            "effect": "Postava má +1 k AC proti prvému útoku v boji."
+        },
+        {
+            "id": 55,
+            "name": "Neodbytnosť",
+            "effect": "Po zlyhanom Deception má postava proti tej istej entite výhodu na Persuasion."
+        },
+        {
+            "id": 56,
+            "name": "Špecializovaná bojová technika",
+            "effect": "Podľa výberu hráča má postava +1 k rollom na útoky na diaľku a -1 k rollom na útoky na blízko alebo naopak."
+        },
+        {
+            "id": 57,
+            "name": "Otvorená myseľ",
+            "effect": "Postava nie je ovplyvnená negatívne ak je konfrontovaná s názormi a udalosťami v rozpore s jej presvedčením."
+        },
+        {
+            "id": 58,
+            "name": "Anjelská tvár",
+            "effect": "Prvé rolly pozitívnych sociálnych interakcii proti tejto postave majú nevýhodu, ak sú rollované entitami s nižšou CHA."
+        },
+        {
+            "id": 59,
+            "name": "Vyzývateľ",
+            "effect": "+1 k útokom ak má cieľ vyšší CR ako je level postavy."
+        },
+        {
+            "id": 60,
+            "name": "Bojový mág",
+            "effect": "Postava môže raz za deň využiť svoj spellcasting bonus pre útok pomocou zbrane."
+        },
+        {
+            "id": 61,
+            "name": "Vyjednávač",
+            "effect": "Postava má výhodu na prvý roll pri vyjednávaní (vyjednávať možno iba s nepriateľmi, ktorí nie sú v bojovej pohotovosti)."
+        },
+        {
+            "id": 62,
+            "name": "Čítanie z pier",
+            "effect": "Postava dokáže prečítať bežnú reč z pier na vzdialenosť 30ft."
+        },
+        {
+            "id": 63,
+            "name": "Oportunista",
+            "effect": "Postava má vyššiu prioritu pri zhodnom rolle na iniciatívu."
+        },
+        {
+            "id": 64,
+            "name": "Čistič",
+            "effect": "Postava má +2 pri pokusoch o odstránenie pozostatkov (neplatí pre pozostatky vyšších veľkostných tried, akú má postava sama)."
+        },
+        {
+            "id": 65,
+            "name": "Lovec",
+            "effect": "Postava dokáže efektívnejšie zúžitkovať pozostatky lovnej zveri. Súčasťou vybavenia postavy je lovecký nôž."
+        },
+        {
+            "id": 66,
+            "name": "Vreckár",
+            "effect": "Postava má +2 pri pokusoch o ukradnutie predmetov, ktoré majú iné postavy pri sebe."
+        },
+        {
+            "id": 67,
+            "name": "Druhá identita",
+            "effect": "Postava má +2 pri pokusoch o utajenie vlastnej identity."
+        },
+        {
+            "id": 68,
+            "name": "Zberateľ trofejí",
+            "effect": "Postava má %5 šancu na nájdenie špeciálneho predmetu zo zabitých jednotiek s vyšším CR, ako je jej level."
+        },
+        {
+            "id": 69,
+            "name": "Štopkár",
+            "effect": "Postava nulifikuje negatívne efekty z deravého či škaredého oblečenia. Súčasťou vybavenia postavy je ihla a niť."
+        },
+        {
+            "id": 70,
+            "name": "Záškodník",
+            "effect": "Postava získava zručnosť streľby z praku, prak je zároveň súčasťou jej vybavenia."
+        },
+        {
+            "id": 71,
+            "name": "Jasná myseľ",
+            "effect": "Postava má +2 pri odolávaní omamným látkam."
+        },
+        {
+            "id": 72,
+            "name": "Ochranca",
+            "effect": "Postava môže použiť reakciu aby obdržala útok, ktorej cieľom je priateľská postava vo vzdialenosti do 10ft."
+        },
+        {
+            "id": 73,
+            "name": "Latentný vampirizmus",
+            "effect": "Postava regeneruje 1 HP za každú udelenú smrteľnú ranu."
+        },
+        {
+            "id": 74,
+            "name": "Putovný muzikant",
+            "effect": "Postava je schopná hrať na prenosný hudobný nástroj, ktorý je súčasťou jej vybavenia."
+        },
+        {
+            "id": 75,
+            "name": "Neoblomný idealista",
+            "effect": "Postava má +1 k rollom, ktorých obtiažnosť po zarátaní všetkých modifikátorov je vyššia ako 18."
+        },
+        {
+            "id": 76,
+            "name": "Všestrannosť",
+            "effect": "Postava nemá žiadne špecifické zručnosti, namiesto toho na všetky zručnosti uplatňuje polovicu bonusu k zručnostiam (zaokrúhlené nadol)."
+        },
+        {
+            "id": 77,
+            "name": "Nadanie",
+            "effect": "Postava môže obetovať deň na získanie ľubovoľnej zručnosti. Možno použiť iba raz."
+        },
+        {
+            "id": 78,
+            "name": "Médium",
+            "effect": "Postava sa môže raz za deň pokúsiť o nadviazanie spojenia s duchom (ekvivalent kúzla Speak with Dead). Kritické zlyhanie vedie k posadnutiu postavy, posadnutá postava je neschopná akcií, pre vyhnanie ducha je nutné vykonať rituál vyháňania paladinom alebo clerikom, ktorý trvá jednu hodinu. Ducha možno vyhnať aj redukciou HP postavy na 0 poškodením typu radiant."
+        },
+        {
+            "id": 79,
+            "name": "Sadista",
+            "effect": "Postava pri udeľovaní poškodenia iným žijúcim entitám mimo boja udeľuje vždy maximálne poškodenie."
+        },
+        {
+            "id": 80,
+            "name": "Masochista",
+            "effect": "Postava získava 1 dočasné HP po obdržaní poškodenia z útokov menšieho ako 4."
+        },
+        {
+            "id": 81,
+            "name": "Odolnosť proti živlom",
+            "effect": "Po obdržaní elementálneho poškodenia je ďalšie poškodenie spôsobené daným elementom znížené o 1. Efekt neplatí pre viac elementov súčasne."
+        },
+        {
+            "id": 82,
+            "name": "Vždy v strehu",
+            "effect": "Na postavu neplatí výhoda z kradmých útokov."
+        },
+        {
+            "id": 83,
+            "name": "Klzkosť",
+            "effect": "Postava má výhodu na prvom rolle pri pokuse o zrušenie stavu Grappled."
+        },
+        {
+            "id": 84,
+            "name": "Hnusné sliny",
+            "effect": "Postava môže použiť akciu pre udelenie 1d4 poškodenia typu acid na entity v dosahu 5ft pomocou pľuvanca. Použiteľné v stave Restrained bez nevýhody."
+        },
+        {
+            "id": 85,
+            "name": "Zuby ako ghúl",
+            "effect": "Postava môže použiť akciu pre udelenie 1d6 piercing poškodenia entitám v dosahu 5ft."
+        },
+        {
+            "id": 86,
+            "name": "Ohľaduplnosť",
+            "effect": "Kritické zlyhania postavy nemajú tendenciu udeľovať poškodenie spojencom."
+        },
+        {
+            "id": 87,
+            "name": "Opatrnosť",
+            "effect": "Postava má +2 na Perception rolly na odhalenie pascí a prepadnutí."
+        },
+        {
+            "id": 88,
+            "name": "Loot goblin",
+            "effect": "Postava má +2 na rolly o iniciatívu pri získavaní koristi."
+        },
+        {
+            "id": 89,
+            "name": "Špecializovaný zabiják",
+            "effect": "Postava má +1 k poškodeniu proti vybranému konkrétnemu monštru."
+        },
+        {
+            "id": 90,
+            "name": "Demoličný expert",
+            "effect": "Postava má +2 pri rolloch ktorých účelom je ničenie neživých štruktúr."
+        }
+        
+    ]
+}
